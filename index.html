@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <table border="2"> <!--inicia uma tabela-->
+        <tr>
+            <td rowspan="3">Agora vai</td>
+            <td>Nome</td>
+            <td>Cidade</td>
+            <td>Idade</td>
+        </tr>
+        <tr> <!--linha da tabela-->
+            <td>Laura</td> <!--célula da tabela-->
+            <td>Americana</td>
+            <td></td> <!--quando nao que escrever nada em uma das linhas, criar um td sem escrever nada-->
+        </tr>
+        <tr> <!--linha da tabela-->
+            <td>Nath</td> <!--célula da tabela-->
+            <td>SBO</td>
+            <td>27</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table border="2"> 
+        <thead> 
+            <tr>
+                <th colspan="3">Lista de Clientes</th>
+                <!--colspan serve para mesclar as colunas e rolspan mescla linhas-->
+            </tr>
+            <tr>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tfoot><!--serve para pontuar melhor o rodapé e ele sempre vai saber q se trata de rodapé independente de onde esteja o código-->
+            <tr>
+                <td colspan="3">Unidade de Americana</td>
+            </tr>
+        </tfoot>
+
+        <tbody> <!--é a informação do corpo da tabela-->
+        <tr> 
+            <td>Laura</td> 
+            <td>Americana</td>
+            <td></td> 
+        </tr>
+        <tr> 
+            <td>Nath</td> 
+            <td>SBO</td>
+            <td>27</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table class="tabela"> <!--inicia uma tabela-->
+        <thead> <!--serve para pontuar melhor-->
+            <tr>
+                <th colspan="3">Lista de Clientes</th>
+                <!--colspan serve para mesclar as colunas e rolspan mescla linhas-->
+            </tr>
+            <tr>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tfoot><!--serve para pontuar melhor o rodapé e ele sempre vai saber q se trata de rodapé independente de onde esteja o código-->
+            <tr>
+                <td colspan="3" class="destaque">Unidade de Americana</td>
+            </tr>
+        </tfoot>
+
+        <tbody> <!--é a informação do corpo da tabela-->
+        <tr> 
+            <td>Laura</td> 
+            <td>Americana</td>
+            <td></td> 
+        </tr>
+        <tr> 
+            <td>Nath</td> 
+            <td>SBO</td>
+            <td>27</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

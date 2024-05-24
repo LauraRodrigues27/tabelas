@@ -1,0 +1,14 @@
+.tabela {
+    border: 5px dotted purple;
+    background-color: aliceblue;
+}
+
+.tabela th,
+.tabela td {
+    border: 2px dashed red;
+}
+
+.destaque {
+    background-color: grey;
+    color: white;
+}
